@@ -34,7 +34,7 @@ jobs:
 
       - uses: dkershner6/aws-ssm-getparameters-action@v1
         with:
-          parameterPairs: '/dev/deploy/docs.dev.lab/env = ENV'
+          parameterPairs: '/dev/deploy/schema-app/env = ENV'
 
       - name: store env
         run: |
